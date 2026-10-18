@@ -1,0 +1,34 @@
+{
+  "name": "nilgiri-trails",
+  "version": "1.0.0",
+  "description": "Nilgiri Trails - Ooty Taxi Service & Tour Packages Website",
+  "main": "index.html",
+  "scripts": {
+    "dev": "npx serve .",
+    "build": "echo 'Static site - no build required'",
+    "lint": "npx htmlhint index.html && npx stylelint css/style.css",
+    "format": "npx prettier --write \"**/*.{html,css,js,md}\""
+  },
+  "keywords": [
+    "travel",
+    "ooty",
+    "nilgiris",
+    "taxi",
+    "tour-packages",
+    "static-site"
+  ],
+  "author": "Nilgiri Trails",
+  "license": "MIT",
+  "devDependencies": {
+    "htmlhint": "^1.1.4",
+    "prettier": "^3.2.5",
+    "serve": "^14.2.1",
+    "stylelint": "^16.2.1",
+    "stylelint-config-standard": "^36.0.0"
+  },
+  "browserslist": [
+    "last 2 versions",
+    "> 1%",
+    "not dead"
+  ]
+}
